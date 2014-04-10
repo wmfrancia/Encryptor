@@ -16,9 +16,11 @@ to see if it is a match.
 Example Use:
 
 //Encryptor
+
 $hash_enc = new Encryptor("mypassword",10,"BLOWFISH");
 
 $hash = $hash_enc->hash;
+
 $salt = $hash_enc->salt;
 
 //Decryptor

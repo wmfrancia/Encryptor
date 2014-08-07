@@ -9,9 +9,7 @@ The class provides the unique salt and hash in a object variable for easy access
 
 Included is the Decryptor class which takes the users password input and unique salt and returns the hash.
 
-This allwos you to check the hash from Decryptor with the hash from the initial encryption that you have stored 
-
-to see if it is a match.
+This allows you to check the hash from Decryptor with the hash from the initial encryption that you have stored to see if it is a match.
 
 Example Use:
 

@@ -26,7 +26,7 @@ class Encryptor{
     }
     function saltor($rnds,$type) {
         
-        $rand_num = base64_encode(mcrypt_create_iv(22,MCRYPT_DEV_URANDOM));
+        $rand_num = base64_encode(random_bytes(22));
         
         if($type == "SHA256") {
             
